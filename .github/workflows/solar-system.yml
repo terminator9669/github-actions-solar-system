@@ -50,7 +50,7 @@ jobs:
           run: npm install
 
         - name: Coverage
-          run: npm run code-coverage
+          run: npm coverage
           continue-on-error: true
 
         - name: Archive Coverage Result
